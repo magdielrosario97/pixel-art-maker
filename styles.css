@@ -1,0 +1,119 @@
+
+.content {
+    display: grid;
+    justify-items: center;
+    margin: auto;
+    height: auto;
+    width: auto;
+    background-image: url('C:/Users/magdi/Desktop/mcsp12/github/pixel-art-maker/background.gif');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+.title-background {
+    height: 120px;
+    margin: 0%;
+    font-family: "Audiowide", sans-serif;
+    color: rgb(253, 199, 51);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e600e2, 0 0 40px #e600e2, 0 0 50px #e600e2, 0 0 60px #e600e2, 0 0 70px #e600e2;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #f94dff, 0 0 40px #f94dff, 0 0 50px #f94dff, 0 0 60px #f94dff, 0 0 70px #f94dff, 0 0 80px #f94dff;
+    }
+  }
+
+.container {
+    display: grid; 
+    gap: 0px 0px; 
+    width: auto; 
+    height: auto; 
+    outline: solid rgb(0, 238, 255) 5px;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+
+.pixels {
+    display: grid;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.button{
+    width: -webkit-fill-available;
+    text-align-last: center;
+    margin: 0%;
+    max-inline-size: min-content;
+    text-align: center;
+}
+
+#resetButton{
+cursor: pointer;
+background-color: #e600e2;
+font-family: "Audiowide", sans-serif;
+transition-duration: 0.5s;
+height: 40px;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 12px;
+font-size: 20px;
+}
+
+#resetButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 0, 221, 0.703), 0 17px 50px 0 rgba(255, 0, 221, 0.703);
+    background-color: #ff9ffd;
+}
+
+#saveButton{
+    cursor: pointer;
+    background-color: #e600e2;
+    font-family: "Audiowide", sans-serif;
+    transition-duration: 0.5s;
+    height: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    font-size: 20px;
+}
+    
+#saveButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 0, 221, 0.703), 0 17px 50px 0 rgba(255, 0, 221, 0.703);
+    background-color: #ff9ffd;
+}
+
+#loadButton{
+    cursor: pointer;
+    background-color: #e600e2;
+    font-family: "Audiowide", sans-serif;
+    transition-duration: 0.5s;
+    height: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    font-size: 20px;
+}
+    
+#loadButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 0, 221, 0.703), 0 17px 50px 0 rgba(255, 0, 221, 0.703);
+    background-color: #ff9ffd;
+}
+
+.color {
+    width: 300px;
+	height: 40px;
+	border: none;
+	border-radius: 40px;
+	background: none;
+}
+
+
+
